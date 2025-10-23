@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/german_map">
+        <file>NicePng_germany-png_8664209.png</file>
+    </qresource>
+</RCC>

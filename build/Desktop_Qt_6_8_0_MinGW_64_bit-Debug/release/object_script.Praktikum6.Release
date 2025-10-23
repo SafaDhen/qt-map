@@ -1,0 +1,11 @@
+release/graph.o
+release/main.o
+release/mainwindow.o
+release/adresse.o
+release/myort.o
+release/ort.o
+release/poi.o
+release/test_navi.o
+release/qrc_german_map.o
+release/moc_mainwindow.o
+release/moc_test_navi.o

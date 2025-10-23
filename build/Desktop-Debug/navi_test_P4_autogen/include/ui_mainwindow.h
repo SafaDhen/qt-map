@@ -1,0 +1,156 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 5.15.15
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QAction *action_1_Ort_Anlegen;
+    QAction *action_2_Laden;
+    QAction *action_3_Speichern;
+    QWidget *centralwidget;
+    QGridLayout *gridLayout_2;
+    QScrollArea *scrollArea;
+    QWidget *scrollAreaWidgetContents;
+    QGridLayout *gridLayout;
+    QPushButton *pushButton_Information;
+    QPushButton *pushButton_verschieben;
+    QLabel *label;
+    QPushButton *pushButton_meinOrt;
+    QPushButton *pushButton_alle_Orte;
+    QPushButton *pushButton_Entfernung;
+    QMenuBar *menubar;
+    QMenu *menuMen;
+    QStatusBar *statusBar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(1009, 793);
+        action_1_Ort_Anlegen = new QAction(MainWindow);
+        action_1_Ort_Anlegen->setObjectName(QString::fromUtf8("action_1_Ort_Anlegen"));
+        action_2_Laden = new QAction(MainWindow);
+        action_2_Laden->setObjectName(QString::fromUtf8("action_2_Laden"));
+        action_3_Speichern = new QAction(MainWindow);
+        action_3_Speichern->setObjectName(QString::fromUtf8("action_3_Speichern"));
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setEnabled(true);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
+        centralwidget->setSizePolicy(sizePolicy);
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        scrollArea = new QScrollArea(centralwidget);
+        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setWidgetResizable(true);
+        scrollAreaWidgetContents = new QWidget();
+        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
+        scrollAreaWidgetContents->setGeometry(QRect(-52, -698, 1027, 1414));
+        gridLayout = new QGridLayout(scrollAreaWidgetContents);
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        pushButton_Information = new QPushButton(scrollAreaWidgetContents);
+        pushButton_Information->setObjectName(QString::fromUtf8("pushButton_Information"));
+
+        gridLayout->addWidget(pushButton_Information, 2, 1, 1, 1);
+
+        pushButton_verschieben = new QPushButton(scrollAreaWidgetContents);
+        pushButton_verschieben->setObjectName(QString::fromUtf8("pushButton_verschieben"));
+
+        gridLayout->addWidget(pushButton_verschieben, 4, 1, 1, 1);
+
+        label = new QLabel(scrollAreaWidgetContents);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setPixmap(QPixmap(QString::fromUtf8(":/map_germany/NicePng_germany-png_8664209.png")));
+
+        gridLayout->addWidget(label, 0, 0, 1, 1);
+
+        pushButton_meinOrt = new QPushButton(scrollAreaWidgetContents);
+        pushButton_meinOrt->setObjectName(QString::fromUtf8("pushButton_meinOrt"));
+
+        gridLayout->addWidget(pushButton_meinOrt, 6, 1, 1, 1);
+
+        pushButton_alle_Orte = new QPushButton(scrollAreaWidgetContents);
+        pushButton_alle_Orte->setObjectName(QString::fromUtf8("pushButton_alle_Orte"));
+
+        gridLayout->addWidget(pushButton_alle_Orte, 3, 1, 1, 1);
+
+        pushButton_Entfernung = new QPushButton(scrollAreaWidgetContents);
+        pushButton_Entfernung->setObjectName(QString::fromUtf8("pushButton_Entfernung"));
+
+        gridLayout->addWidget(pushButton_Entfernung, 1, 1, 1, 1);
+
+        scrollArea->setWidget(scrollAreaWidgetContents);
+
+        gridLayout_2->addWidget(scrollArea, 0, 1, 1, 1);
+
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 1009, 21));
+        menuMen = new QMenu(menubar);
+        menuMen->setObjectName(QString::fromUtf8("menuMen"));
+        MainWindow->setMenuBar(menubar);
+        statusBar = new QStatusBar(MainWindow);
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
+        MainWindow->setStatusBar(statusBar);
+
+        menubar->addAction(menuMen->menuAction());
+        menuMen->addAction(action_1_Ort_Anlegen);
+        menuMen->addAction(action_2_Laden);
+        menuMen->addAction(action_3_Speichern);
+
+        retranslateUi(MainWindow);
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        action_1_Ort_Anlegen->setText(QCoreApplication::translate("MainWindow", "(1) Ort Anlegen", nullptr));
+        action_2_Laden->setText(QCoreApplication::translate("MainWindow", "(2) Laden ", nullptr));
+        action_3_Speichern->setText(QCoreApplication::translate("MainWindow", "(3) Speichern", nullptr));
+        pushButton_Information->setText(QCoreApplication::translate("MainWindow", "Information", nullptr));
+        pushButton_verschieben->setText(QCoreApplication::translate("MainWindow", "Verschieben", nullptr));
+        label->setText(QString());
+        pushButton_meinOrt->setText(QCoreApplication::translate("MainWindow", "MeinOrt", nullptr));
+        pushButton_alle_Orte->setText(QCoreApplication::translate("MainWindow", "Alle Orte", nullptr));
+        pushButton_Entfernung->setText(QCoreApplication::translate("MainWindow", "Entfernung", nullptr));
+        menuMen->setTitle(QCoreApplication::translate("MainWindow", "Men\303\274", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

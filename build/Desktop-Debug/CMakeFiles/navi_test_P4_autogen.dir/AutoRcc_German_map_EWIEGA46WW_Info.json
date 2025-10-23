@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/stud/navi_test_P4/build/Desktop-Debug/navi_test_P4_autogen",
+	"CMAKE_BINARY_DIR" : "/home/stud/navi_test_P4/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/stud/navi_test_P4/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/stud/navi_test_P4",
+	"CMAKE_SOURCE_DIR" : "/home/stud/navi_test_P4",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/stud/navi_test_P4/build/Desktop-Debug/navi_test_P4_autogen/include",
+	"INPUTS" : [ "/home/stud/navi_test_P4/NicePng_germany-png_8664209.png" ],
+	"LOCK_FILE" : "/home/stud/navi_test_P4/build/Desktop-Debug/CMakeFiles/navi_test_P4_autogen.dir/AutoRcc_German_map_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "German_map" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_German_map.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/stud/navi_test_P4/build/Desktop-Debug/CMakeFiles/navi_test_P4_autogen.dir/AutoRcc_German_map_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/stud/navi_test_P4/German_map.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
